@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生产制造AI解决方案 - 智能工厂2.5D展示</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 星空背景容器 -->
+    <div class="starfield-background"></div>
+    
+    <!-- 主导航 -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">AI Factory</span>
+            </div>
+            <div class="nav-links">
+                <a href="#solutions">解决方案</a>
+                <a href="#products">产品</a>
+                <a href="#cases">案例</a>
+                <a href="#about">关于我们</a>
+                <button class="cta-button">免费试用</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <!-- 主要展示区域 - 样板间在第一屏 -->
+        <section class="hero-showcase">
+            <div class="hero-content">
+                <h1 class="hero-title" data-text="新一代制造智能体">新一代制造智能体</h1>
+                <p class="hero-slogan" data-text="重塑竞争力，赋能工业未来">重塑竞争力，赋能工业未来</p>
+            </div>
+            
+            <!-- 2.5D样板间展示 - 核心位置 -->
+            <div class="factory-container">
+                <!-- 工厂地面 -->
+                <div class="factory-floor"></div>
+                
+                <!-- 工厂环境光效 -->
+                <div class="factory-ambient-light"></div>
+            
+            <!-- 研发区域 -->
+            <div class="work-area research-area" data-area="research">
+                <div class="area-label">研发中心</div>
+                <!-- 办公桌组 -->
+                <div class="office-desk-group">
+                    <div class="desk desk-1"></div>
+                    <div class="desk desk-2"></div>
+                    <div class="desk-chair chair-1"></div>
+                    <div class="desk-chair chair-2"></div>
+                </div>
+                <!-- 设计工作站 -->
+                <div class="design-workstation">
+                    <div class="large-monitor"></div>
+                    <div class="cad-computer"></div>
+                    <div class="drawing-tablet"></div>
+                </div>
+                <!-- 测试台 -->
+                <div class="test-bench">
+                    <div class="test-equipment"></div>
+                    <div class="measuring-tools"></div>
+                </div>
+                <!-- 新增：机器人的手臂 -->
+                <div class="robot-arm"></div>
+                <!-- 新增：硬件测试台 -->
+                <div class="hardware-test-bench"></div>
+                <!-- 新增：数据看板 -->
+                <div class="data-dashboard"></div>
+                <!-- 新增：邮件系统 -->
+                <div class="email-system"></div>
+                <!-- 额外设计元素 -->
+                <div class="design-workstation-copy design-extra-1"></div>
+                <div class="test-bench-copy test-extra-1"></div>
+                <!-- 新增：更多研发元素 -->
+                <div class="data-dashboard data-dashboard-2"></div>
+                <div class="email-system email-system-2"></div>
+                <div class="hardware-test-bench hardware-test-bench-2"></div>
+                <div class="robot-arm robot-arm-2"></div>
+                <!-- 新增：实验室设备 -->
+                <div class="lab-equipment lab-equipment-1"></div>
+                <div class="lab-equipment lab-equipment-2"></div>
+                <!-- 新增：研发工具 -->
+                <div class="research-tools research-tools-1"></div>
+                <div class="research-tools research-tools-2"></div>
+                <!-- 人员 -->
+                <div class="person engineer-1"></div>
+                <div class="person engineer-2"></div>
+                <div class="person researcher-1"></div>
+                <div class="person researcher-2"></div>
+                <!-- 交互元素 -->
+                <div class="interactive-element design-button" 
+                     data-ai="design-process" 
+                     data-name="设计工艺管理助手" 
+                     data-desc="智能工艺设计，优化生产流程，提供CAD/CAM集成、工艺参数优化、设计文档管理等功能">
+                    <div class="element-highlight"></div>
+                </div>
+                <div class="interactive-element testing-button" 
+                     data-ai="testing" 
+                     data-name="测试助手" 
+                     data-desc="智能测试分析，确保产品质量，提供自动化测试、数据分析、质量评估、测试报告生成等功能">
+                    <div class="element-highlight"></div>
+                </div>
+            </div>
+
+            <!-- 生产区域 -->
+            <div class="work-area production-area" data-area="production">
+                <div class="area-label">生产车间</div>
+                <!-- 主要生产线 -->
+                <div class="main-production-line">
+                    <div class="conveyor-system"></div>
+                    <div class="assembly-station station-1"></div>
+                    <div class="assembly-station station-2"></div>
+                    <div class="assembly-station station-3"></div>
+                </div>
+                <!-- 新增：工厂传送带 -->
+                <div class="factory-conveyor"></div>
+                <!-- 工业机器人 -->
+                <div class="industrial-robot">
+                    <div class="robot-base"></div>
+                    <div class="robot-arm"></div>
+                    <div class="robot-tool"></div>
+                </div>
+                <!-- 质检区 -->
+                <div class="quality-control-area">
+                    <div class="inspection-table"></div>
+                    <div class="measurement-device"></div>
+                </div>
+                <!-- 额外生产元素 -->
+                <div class="main-production-line-copy production-extra-1"></div>
+                <div class="main-production-line-copy production-extra-2"></div>
+                <!-- 新增：生产数据看板 -->
+                <div class="production-dashboard"></div>
+                <!-- 新增：更多生产元素 -->
+                <div class="factory-conveyor factory-conveyor-2"></div>
+                <div class="production-dashboard production-dashboard-2"></div>
+                <!-- 新增：生产线设备 -->
+                <div class="production-equipment production-equipment-1"></div>
+                <div class="production-equipment production-equipment-2"></div>
+                <!-- 新增：质检设备 -->
+                <div class="quality-equipment quality-equipment-1"></div>
+                <div class="quality-equipment quality-equipment-2"></div>
+                <!-- 新增：机器人设备 -->
+                <div class="industrial-robot industrial-robot-2"></div>
+                <div class="industrial-robot industrial-robot-3"></div>
+                <!-- 操作员 -->
+                <div class="person operator-1"></div>
+                <div class="person operator-2"></div>
+                <div class="person quality-inspector"></div>
+                <div class="person operator-3"></div>
+                <div class="person operator-4"></div>
+                <div class="person supervisor-1"></div>
+                <!-- 交互元素 -->
+                <div class="interactive-element scheduling-button" 
+                     data-ai="production-scheduling" 
+                     data-name="智能排产助手" 
+                     data-desc="智能排产优化，提升生产效率，提供生产计划制定、设备调度、产能优化、交期预测等功能">
+                    <div class="element-highlight"></div>
+                </div>
+                <div class="interactive-element quality-button" 
+                     data-ai="quality-management" 
+                     data-name="生产质量管理助手" 
+                     data-desc="全面质量管理，保障产品品质，提供质量检测、问题分析、改进建议、质量追溯等功能">
+                    <div class="element-highlight"></div>
+                </div>
+            </div>
+
+            <!-- 供应链区域 -->
+            <div class="work-area supply-area" data-area="supply">
+                <div class="area-label">仓储供应链</div>
+                <!-- 货架系统 -->
+                <div class="warehouse-system">
+                    <div class="storage-rack rack-1"></div>
+                    <div class="storage-rack rack-2"></div>
+                    <div class="storage-rack rack-3"></div>
+                </div>
+                <!-- 叉车和托盘 -->
+                <div class="forklift-vehicle"></div>
+                <div class="pallet-group">
+                    <div class="pallet pallet-1"></div>
+                    <div class="pallet pallet-2"></div>
+                </div>
+                <!-- 发货台 -->
+                <div class="shipping-dock">
+                    <div class="loading-platform"></div>
+                    <div class="delivery-truck"></div>
+                </div>
+                <!-- 额外供应链元素 -->
+                <div class="forklift-vehicle-copy supply-extra-1"></div>
+                <div class="shipping-dock-copy supply-extra-2"></div>
+                <!-- 新增：更多供应链元素 -->
+                <div class="storage-rack rack-4"></div>
+                <div class="storage-rack rack-5"></div>
+                <div class="pallet pallet-3"></div>
+                <div class="pallet pallet-4"></div>
+                <div class="forklift-vehicle-copy forklift-2"></div>
+                <div class="delivery-truck delivery-truck-2"></div>
+                <!-- 新增：仓库设备 -->
+                <div class="warehouse-equipment warehouse-equipment-1"></div>
+                <div class="warehouse-equipment warehouse-equipment-2"></div>
+                <!-- 新增：物流工具 -->
+                <div class="logistics-tools logistics-tools-1"></div>
+                <div class="logistics-tools logistics-tools-2"></div>
+                <!-- 新增：填充空白区域 -->
+                <div class="storage-rack rack-6"></div>
+                <div class="storage-rack rack-7"></div>
+                <div class="pallet pallet-5"></div>
+                <div class="pallet pallet-6"></div>
+                <div class="warehouse-equipment warehouse-equipment-3"></div>
+                <div class="warehouse-equipment warehouse-equipment-4"></div>
+                <div class="logistics-tools logistics-tools-3"></div>
+                <div class="logistics-tools logistics-tools-4"></div>
+                <div class="forklift-vehicle-copy forklift-3"></div>
+                <div class="forklift-vehicle-copy forklift-4"></div>
+                <div class="delivery-truck delivery-truck-3"></div>
+                <div class="delivery-truck delivery-truck-4"></div>
+                <!-- 仓库人员 -->
+                <div class="person warehouse-worker-1"></div>
+                <div class="person warehouse-worker-2"></div>
+                <div class="person logistics-worker-1"></div>
+                <div class="person logistics-worker-2"></div>
+                <!-- 交互元素 -->
+                <div class="interactive-element inventory-button" 
+                     data-ai="inventory-warning" 
+                     data-name="库存风险预警助手" 
+                     data-desc="智能库存监控，预防断货风险，提供库存监控、需求预测、预警机制、补货建议等功能">
+                    <div class="element-highlight"></div>
+                </div>
+                <div class="interactive-element logistics-button" 
+                     data-ai="logistics" 
+                     data-name="物流管理助手" 
+                     data-desc="智能物流调度，优化配送效率，提供配送路线规划、运输调度、物流成本优化、实时跟踪等功能">
+                    <div class="element-highlight"></div>
+                </div>
+            </div>
+
+            <!-- 销售展示区域 -->
+            <div class="work-area sales-area" data-area="sales">
+                <div class="area-label">销售大厅</div>
+                <!-- 产品展示台 -->
+                <div class="product-display-area">
+                    <div class="display-pedestal pedestal-1"></div>
+                    <div class="display-pedestal pedestal-2"></div>
+                    <div class="display-pedestal pedestal-3"></div>
+                </div>
+                <!-- 新增：商品展示 -->
+                <div class="product-showcase"></div>
+                <!-- 新增：客服中心 -->
+                <div class="customer-service-center"></div>
+                <!-- 新增：销售数据看板 -->
+                <div class="sales-dashboard"></div>
+                <!-- 会议桌 -->
+                <div class="conference-table">
+                    <div class="meeting-table"></div>
+                    <div class="conference-chairs"></div>
+                </div>
+                <!-- 大屏展示 -->
+                <div class="presentation-wall">
+                    <div class="large-screen"></div>
+                    <div class="control-panel"></div>
+                </div>
+                <!-- 新增：更多销售元素 -->
+                <div class="product-showcase product-showcase-2"></div>
+                <div class="customer-service-center customer-service-2"></div>
+                <div class="sales-dashboard sales-dashboard-2"></div>
+                <!-- 新增：展示柜台 -->
+                <div class="display-counter display-counter-1"></div>
+                <div class="display-counter display-counter-2"></div>
+                <!-- 新增：销售工具 -->
+                <div class="sales-tools sales-tools-1"></div>
+                <div class="sales-tools sales-tools-2"></div>
+                <!-- 新增：客户接待区 -->
+                <div class="customer-lounge customer-lounge-1"></div>
+                <div class="customer-lounge customer-lounge-2"></div>
+                <!-- 新增：填充空白区域 -->
+                <div class="product-showcase product-showcase-3"></div>
+                <div class="product-showcase product-showcase-4"></div>
+                <div class="customer-service-center customer-service-3"></div>
+                <div class="customer-service-center customer-service-4"></div>
+                <div class="sales-dashboard sales-dashboard-3"></div>
+                <div class="sales-dashboard sales-dashboard-4"></div>
+                <div class="display-counter display-counter-3"></div>
+                <div class="display-counter display-counter-4"></div>
+                <div class="sales-tools sales-tools-3"></div>
+                <div class="sales-tools sales-tools-4"></div>
+                <div class="customer-lounge customer-lounge-3"></div>
+                <div class="customer-lounge customer-lounge-4"></div>
+                <!-- 销售人员和客户 -->
+                <div class="person sales-manager"></div>
+                <div class="person client-1"></div>
+                <div class="person client-2"></div>
+                <div class="person sales-rep-1"></div>
+                <div class="person sales-rep-2"></div>
+                <div class="person client-3"></div>
+                <!-- 交互元素 -->
+                <div class="interactive-element intelligence-button" 
+                     data-ai="customer-intelligence" 
+                     data-name="客户情报助手" 
+                     data-desc="深度客户分析，助力精准营销，提供客户行为分析、市场趋势分析、竞争对手情报、营销策略建议等功能">
+                    <div class="element-highlight"></div>
+                </div>
+                <div class="interactive-element sales-service-button" 
+                     data-ai="sales-service" 
+                     data-name="产品销售客服" 
+                     data-desc="智能客服服务，提升客户体验，提供产品咨询、订单处理、技术支持、售后服务等功能">
+                    <div class="element-highlight"></div>
+                </div>
+            </div>
+
+            <!-- 售后服务区域 -->
+            <div class="work-area support-area" data-area="support">
+                <div class="area-label">售服中心</div>
+                <!-- 维修工作台 -->
+                <div class="repair-workbench">
+                    <div class="main-workbench"></div>
+                    <div class="tool-cabinet"></div>
+                    <div class="parts-storage"></div>
+                </div>
+                <!-- 客服台 -->
+                <div class="customer-service-desk">
+                    <div class="service-counter"></div>
+                    <div class="computer-setup"></div>
+                    <div class="phone-system"></div>
+                </div>
+                <!-- 新增：售后数据看板 -->
+                <div class="support-dashboard"></div>
+                <!-- 新增：售后邮件系统 -->
+                <div class="support-email-system"></div>
+                <!-- 培训区 -->
+                <div class="training-corner">
+                    <div class="training-table"></div>
+                    <div class="instruction-board"></div>
+                </div>
+                <!-- 新增：更多售后元素 -->
+                <div class="support-dashboard-copy support-dashboard-2"></div>
+                <div class="support-email-system-copy support-email-2"></div>
+                <div class="support-dashboard-copy support-dashboard-3"></div>
+                <div class="support-email-system-copy support-email-3"></div>
+                <!-- 新增：工具架 -->
+                <div class="tool-rack tool-rack-1"></div>
+                <div class="tool-rack tool-rack-2"></div>
+                <!-- 新增：零件架 -->
+                <div class="parts-shelf parts-shelf-1"></div>
+                <div class="parts-shelf parts-shelf-2"></div>
+                <!-- 新增：维修设备 -->
+                <div class="repair-equipment repair-equipment-1"></div>
+                <div class="repair-equipment repair-equipment-2"></div>
+                <!-- 新增：客服工作台 -->
+                <div class="service-workstation service-workstation-1"></div>
+                <div class="service-workstation service-workstation-2"></div>
+                <!-- 技术人员 -->
+                <div class="person technician-1"></div>
+                <div class="person technician-2"></div>
+                <div class="person service-rep"></div>
+                <div class="person technician-3"></div>
+                <div class="person service-rep-2"></div>
+                <!-- 交互元素 -->
+                <div class="interactive-element repair-button" 
+                     data-ai="repair-knowledge" 
+                     data-name="设备维修知识助手" 
+                     data-desc="智能维修指导，快速解决问题，提供设备故障诊断、维修指导、技术培训、知识库管理等功能">
+                    <div class="element-highlight"></div>
+                </div>
+                <div class="interactive-element work-order-button" 
+                     data-ai="work-order" 
+                     data-name="工单管理助手" 
+                     data-desc="智能工单处理，提升服务效率，提供工单创建、分配、跟踪、完成、统计分析等功能">
+                    <div class="element-highlight"></div>
+                </div>
+            </div>
+
+            <!-- 流程虚线连接 -->
+            <div class="process-lines">
+                <!-- 研发到生产：从机器人的手臂到工厂传送带 -->
+                <div class="dashed-line line-1"></div>
+                <!-- 生产到供应链：从工厂传送带到配送卡车 -->
+                <div class="dashed-line line-2"></div>
+                <!-- 供应链到销售：从配送卡车到商品展示 -->
+                <div class="dashed-line line-3"></div>
+                <!-- 销售到售后：从客服中心到售后数据看板 -->
+                <div class="dashed-line line-4"></div>
+            </div>
+            
+            <!-- 悬浮信息卡片 -->
+            <div class="info-card" id="info-card">
+                <div class="card-header">
+                    <div class="card-avatar" id="card-avatar">
+                        <img src="./UI素材/头像.png" alt="AI助手头像">
+                    </div>
+                    <div class="card-info">
+                        <div class="card-title-row">
+                            <h3 class="info-card-title" id="card-title"></h3>
+                            <span class="card-tag" id="card-tag"></span>
+                        </div>
+                        <p class="info-card-desc" id="card-desc"></p>
+                    </div>
+                </div>
+                <div class="card-features">
+                    <h4 class="features-title">Agent特性</h4>
+                    <ul class="features-list" id="features-list"></ul>
+                </div>
+                <a href="#" class="info-card-action" id="card-action">立即体验</a>
+            </div>
+        </div>
+
+            </div>
+            
+            <!-- 操作按钮区域 -->
+            <div class="hero-actions">
+                <button class="primary-button">立即体验样板间</button>
+                <button class="secondary-button">了解更多方案</button>
+            </div>
+        </section>
+
+        <!-- 特性展示区域 -->
+        <section class="features-section">
+            <div class="features-container">
+                <h2 class="section-title">核心优势</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🧠</div>
+                        <h3>智能分析</h3>
+                        <p>AI深度学习算法，实时分析生产数据，预测潜在问题</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>高效协同</h3>
+                        <p>全流程数字化协同，提升生产效率30%以上</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>安全可靠</h3>
+                        <p>企业级安全保障，数据加密传输，隐私保护</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📈</div>
+                        <h3>持续优化</h3>
+                        <p>AI持续学习优化，让系统越用越智能</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系我们区域 -->
+        <section class="contact-section">
+            <div class="contact-container">
+                <h2 class="section-title">开启智能制造之旅</h2>
+                <p class="contact-subtitle">立即体验AI驱动的生产制造解决方案</p>
+                <div class="contact-buttons">
+                    <button class="primary-button">免费试用</button>
+                    <button class="secondary-button">联系专家</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI助手信息卡片 -->
+        <div class="ai-card" id="ai-card">
+            <div class="card-header">
+                <h4 id="ai-title"></h4>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="card-content">
+                <p id="ai-description"></p>
+                <div class="ai-features">
+                    <h5>主要功能：</h5>
+                    <ul id="ai-features-list"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>AI Factory</h4>
+                    <p>引领制造业智能化变革</p>
+                </div>
+                <div class="footer-section">
+                    <h4>产品</h4>
+                    <a href="#">AI研发助手</a>
+                    <a href="#">智能生产系统</a>
+                    <a href="#">供应链管理</a>
+                </div>
+                <div class="footer-section">
+                    <h4>解决方案</h4>
+                    <a href="#">制造业AI</a>
+                    <a href="#">数字化工厂</a>
+                    <a href="#">智能运营</a>
+                </div>
+                <div class="footer-section">
+                    <h4>联系我们</h4>
+                    <p>电话：400-123-4567</p>
+                    <p>邮箱：info@aifactory.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI Factory. 保留所有权利。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
